@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.first{
+    background-color:red;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    /* margin: 10px; */
+    border: solid 10px;
+    border-color: chocolate;
+    position: relative;
+    left: 460px;
+}
+h1{
+    margin-top: 0;
+}
+
+.second{
+    height: 200px;
+    width: 200px;
+    margin-left: 260px;
+    background-color:blue;
+    border: solid 20px;
+    border-color:deeppink;
+    position: relative;
+    bottom: 260px;
+    right: 260px;
+}
+
+.third{
+    height: 200px;
+    width: 200px;
+    background-color:yellow;
+    margin-left: 500px;
+    border: solid 10px;
+    border-color: darkkhaki;
+    position: relative;
+    bottom: 500px;
+    right: 260px;
+}

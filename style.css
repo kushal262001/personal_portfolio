@@ -1,0 +1,200 @@
+.first{
+    background-color:darkseagreen;
+    padding-top: 100px;
+}
+
+.Mountain{
+    
+    height: 500px;
+    width: 100%;
+}
+body{
+    margin: 0;
+    text-align: center;       /*after change in width it will not work. It is for without mentioning the width*/
+    font-family: 'Montez', cursive;
+}
+h1{
+    
+    width: 10%;
+    margin: 0 auto 0 auto;  /* This will work for h1 tag as width changed*/
+    color:cornflowerblue;
+
+}
+
+.upper{
+    position: relative;
+    left: 300px;
+}
+
+.lower{
+    position: relative;
+    right: 300px;
+}
+
+p{
+     font-family: 'Montserrat', sans-serif;
+}
+
+.myphoto{
+    border-radius: 100%;
+    height: 200px;
+    width: 10%;
+    margin: 100px 0 0 0;
+}
+
+.clg{
+    margin-bottom: 30px;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    width: 5%;
+    border-bottom: none;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.main{
+    width: 50%;
+    font-size: 90px;
+    margin-bottom: 0;
+}
+
+.para{
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 1;
+    color: cornflowerblue;
+}
+
+h3{
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+
+.Communication{
+    border-radius: 20%;
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+   
+}
+
+.teamwork{
+    border-radius: 40%;
+    height: 200px;
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+   
+}
+
+.skill{
+    font-size: 40px;
+    margin-top: 50px;
+   
+}
+
+.mySkills{
+    color: blueviolet;
+    font-size: 50px;
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-para{
+    line-height: 2;
+    width: 100%;
+    text-align: left;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+.ending{
+    color: #EAF6F6;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.hackerrank{
+    margin-left: 20px;
+    
+}
+
+.contact-me{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-link{
+    text-decoration: none;
+   color:dimgrey;
+
+}
+
+.footer-link:hover{
+    color: blueviolet;
+}
+
+.touch{
+    font-size: 40px;
+    color: #11999E;
+}
+/* 1em=100%=16px */
+
+/* IMP NOTE
+if size mentioned in em and  % it is dynamic size
+if there is font size mentioned in body and again font size mentioned in the some selector then it gets added
+ */
+
+ /* Instead of mentioning size in em mention in rem so that it will not take other sizes */
+
+ /* size in px is static it does not get added */
+
+ /* After using float every content in that block will come to right side and if we dont want for particular paragraph then use 
+ clear: left 
+ so it will not take anything to its left side and it will be no longer wrapped */
+
+ .btn {
+     width: 40%;
+     height: 20px;
+    
+     position: relative;
+     top: 10px;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    /* padding: 10px 20px 10px 20px; */
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
